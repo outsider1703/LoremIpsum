@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		739FB5E92C92C85C009A18AD /* GameNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739FB5E82C92C85C009A18AD /* GameNumberView.swift */; };
 		73A1413B2C91754B0018004A /* LoremIpsumApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A1413A2C91754B0018004A /* LoremIpsumApp.swift */; };
-		73A1413D2C91754B0018004A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A1413C2C91754B0018004A /* ContentView.swift */; };
+		73A1413D2C91754B0018004A /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A1413C2C91754B0018004A /* CategoryView.swift */; };
 		73A1413F2C91754C0018004A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73A1413E2C91754C0018004A /* Assets.xcassets */; };
 		73A141422C91754C0018004A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73A141412C91754C0018004A /* Preview Assets.xcassets */; };
 		73A1414C2C91754C0018004A /* LoremIpsumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A1414B2C91754C0018004A /* LoremIpsumTests.swift */; };
 		73A141562C91754C0018004A /* LoremIpsumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A141552C91754C0018004A /* LoremIpsumUITests.swift */; };
 		73A141582C91754C0018004A /* LoremIpsumUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A141572C91754C0018004A /* LoremIpsumUITestsLaunchTests.swift */; };
+		73A141652C9186200018004A /* StudyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A141642C9186200018004A /* StudyView.swift */; };
+		73A141692C918B360018004A /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A141682C918B360018004A /* CategoryCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		739FB5E82C92C85C009A18AD /* GameNumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameNumberView.swift; sourceTree = "<group>"; };
 		73A141372C91754B0018004A /* LoremIpsum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoremIpsum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73A1413A2C91754B0018004A /* LoremIpsumApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoremIpsumApp.swift; sourceTree = "<group>"; };
-		73A1413C2C91754B0018004A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		73A1413C2C91754B0018004A /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
 		73A1413E2C91754C0018004A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		73A141412C91754C0018004A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		73A141472C91754C0018004A /* LoremIpsumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoremIpsumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +48,8 @@
 		73A141512C91754C0018004A /* LoremIpsumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoremIpsumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		73A141552C91754C0018004A /* LoremIpsumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoremIpsumUITests.swift; sourceTree = "<group>"; };
 		73A141572C91754C0018004A /* LoremIpsumUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoremIpsumUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		73A141642C9186200018004A /* StudyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyView.swift; sourceTree = "<group>"; };
+		73A141682C918B360018004A /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +77,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		739FB5E62C92C7F2009A18AD /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				73A1413C2C91754B0018004A /* CategoryView.swift */,
+				73A141682C918B360018004A /* CategoryCell.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		739FB5E72C92C83D009A18AD /* GameNumber */ = {
+			isa = PBXGroup;
+			children = (
+				739FB5E82C92C85C009A18AD /* GameNumberView.swift */,
+			);
+			path = GameNumber;
+			sourceTree = "<group>";
+		};
 		73A1412E2C91754B0018004A = {
 			isa = PBXGroup;
 			children = (
@@ -95,7 +118,8 @@
 			isa = PBXGroup;
 			children = (
 				73A1413A2C91754B0018004A /* LoremIpsumApp.swift */,
-				73A1413C2C91754B0018004A /* ContentView.swift */,
+				73A141662C918AF60018004A /* Game */,
+				73A141672C918B160018004A /* Study */,
 				73A1413E2C91754C0018004A /* Assets.xcassets */,
 				73A141402C91754C0018004A /* Preview Content */,
 			);
@@ -125,6 +149,23 @@
 				73A141572C91754C0018004A /* LoremIpsumUITestsLaunchTests.swift */,
 			);
 			path = LoremIpsumUITests;
+			sourceTree = "<group>";
+		};
+		73A141662C918AF60018004A /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				739FB5E62C92C7F2009A18AD /* Category */,
+				739FB5E72C92C83D009A18AD /* GameNumber */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		73A141672C918B160018004A /* Study */ = {
+			isa = PBXGroup;
+			children = (
+				73A141642C9186200018004A /* StudyView.swift */,
+			);
+			path = Study;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +298,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73A1413D2C91754B0018004A /* ContentView.swift in Sources */,
+				739FB5E92C92C85C009A18AD /* GameNumberView.swift in Sources */,
+				73A1413D2C91754B0018004A /* CategoryView.swift in Sources */,
+				73A141652C9186200018004A /* StudyView.swift in Sources */,
 				73A1413B2C91754B0018004A /* LoremIpsumApp.swift in Sources */,
+				73A141692C918B360018004A /* CategoryCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +473,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -457,6 +502,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
